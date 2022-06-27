@@ -1,1 +1,2 @@
-# artlensoptic.github.io
+# ArtlensOptic.github.io
+Website for https://artlensoptic.ro

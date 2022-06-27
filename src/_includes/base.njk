@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>{% if title %}{{ title }} | {{ site.meta.title }}{% else %}{{ site.meta.title }}{% endif %}</title>
+        <meta name="description" content="{% if description %}{{ description }}{% else %}{{ site.meta.description }}{% endif %}">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/static/css/artlens.css">
+        <script>
+            window.cookieconsent_options = {"message":"ArtlensOptic.ro foloseste cookie-uri pentru a personaliza continutul si anunturile, pentru a oferi functii de retele sociale si pentru analiza traficului.","dismiss":"Accept","learnMore":"","link":"","theme":"cookie"};
+        </script>
+        <script src="/static/js/cookieconsent.min.js"></script>
+    </head>
+    <body>
+        {% include "components/navbar.njk" %}
+        <div class="container">
+            {{ content | safe }}
+        </div>
+        {% include "components/footer.njk" %}
+    </body>
+</html>
