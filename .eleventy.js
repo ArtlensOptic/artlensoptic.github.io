@@ -5,6 +5,7 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy("CNAME");
     eleventyConfig.addPlugin(eleventyNavigationPlugin);
     eleventyConfig.addPlugin(eleventyPluginFilesMinifier);
+    eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);
     return {
         dir: {
             "input" : "src",
