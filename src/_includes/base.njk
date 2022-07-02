@@ -6,6 +6,14 @@
         <title>{% if title %}{{ title }} | {{ site.meta.title }}{% else %}{{ site.meta.title }}{% endif %}</title>
         <meta name="description" content="{% if description %}{{ description }}{% else %}{{ site.meta.description }}{% endif %}">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta property="og:locale" content="ro_RO" />
+		<meta property="og:site_name" content="{{ site.meta.title }}" />
+		<meta property="og:type" content="website" />
+		<meta property="og:title" content="{% if title %}{{ title }} | {{ site.meta.title }}{% else %}{{ site.meta.title }}{% endif %}" />
+		<meta property="og:description" content="{% if description %}{{ description }}{% else %}{{ site.meta.description }}{% endif %}" />
+		<meta property="og:url" content="{{ site.meta.siteUrl }}{{ page.url | url }}" />
+		<meta property="og:image" content="{{ site.meta.siteUrl }}/static/img/artlensoptic.jpg" />
+		<meta property="og:image:secure_url" content="{{ site.meta.siteUrl }}/static/img/artlensoptic.jpg" />
         <link rel="stylesheet" href="/static/css/artlens.css">
         <link rel="icon" type="image/x-icon" href="/static/favicon.ico">
         <script>
