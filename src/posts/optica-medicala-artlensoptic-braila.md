@@ -21,7 +21,7 @@ ArtlensOptic Braila are ca obiect de activitate promovarea si comercializarea pr
 
 – determinare de dioptrii gratuita *
 
-Tel: <a href="tel:+40 771 140 396">+40 771 140 396</a>
+Tel: <a href="tel:+40771140396">+40 771 140 396</a>
 
 ### Parteneri / Colaboratori
 
