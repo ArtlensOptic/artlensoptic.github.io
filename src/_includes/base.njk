@@ -1,32 +1,15 @@
 <!DOCTYPE html>
 <html lang="ro">
     <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>{% if title %}{{ title }} | {{ site.meta.title }}{% else %}{{ site.meta.title }}{% endif %}</title>
         <meta name="description" content="{% if description %}{{ description }}{% else %}{{ site.meta.description }}{% endif %}">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta property="og:locale" content="ro_RO" />
-		<meta property="og:site_name" content="{{ site.meta.title }}" />
-		<meta property="og:type" content="website" />
-		<meta property="og:title" content="{% if title %}{{ title }} | {{ site.meta.title }}{% else %}{{ site.meta.title }}{% endif %}" />
-		<meta property="og:description" content="{% if description %}{{ description }}{% else %}{{ site.meta.description }}{% endif %}" />
-		<meta property="og:url" content="{{ site.meta.siteUrl }}{{ page.url | url }}" />
-		<meta property="og:image" content="{{ site.meta.siteUrl }}/static/img/artlensoptic.jpg" />
-		<meta property="og:image:secure_url" content="{{ site.meta.siteUrl }}/static/img/artlensoptic.jpg" />
-        <meta name="twitter:card" content="summary_large_image">
-        <meta property="twitter:domain" content="artlensoptic.ro">
-        <meta property="twitter:url" content="{{ site.meta.siteUrl }}{{ page.url | url }}">
-        <meta name="twitter:title" content="{% if title %}{{ title }} | {{ site.meta.title }}{% else %}{{ site.meta.title }}{% endif %}">
-        <meta name="twitter:description" content="{% if description %}{{ description }}{% else %}{{ site.meta.description }}{% endif %}">
-        <meta name="twitter:image" content="{{ site.meta.siteUrl }}/static/img/artlensoptic.jpg">
-        <meta name="msvalidate.01" content="7F5EF3F2581911414C084C864F0E0E53" />
         <link rel="stylesheet" href="/static/css/artlens.css">
         <link rel="icon" type="image/x-icon" href="/static/favicon.ico">
         <script>
             window.cookieconsent_options = {"message":"ArtlensOptic.ro foloseste cookie-uri pentru a personaliza continutul si anunturile, pentru a oferi functii de retele sociale si pentru analiza traficului.","dismiss":"Accept","learnMore":"","link":"","theme":"cookie"};
         </script>
         <script src="/static/js/cookieconsent.min.js"></script>
+        {% include "components/meta.njk" %}
         {% include "components/analytics.njk" %}
     </head>
     <body>
