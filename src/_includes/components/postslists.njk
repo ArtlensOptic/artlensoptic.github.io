@@ -2,4 +2,5 @@
 {% for post in pagination.items %}
 <a href="{{ post.url }}"><h2>{{ post.data.title }}</h2></a>
 {{ post.templateContent | striptags | truncate(332, true) }}
+<hr />
 {% endfor %}

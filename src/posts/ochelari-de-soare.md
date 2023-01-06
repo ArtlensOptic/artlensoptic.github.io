@@ -1,16 +1,16 @@
 ---
 title: "Ochelari de soare"
-date: "2022-07-02"
-description: "La ArtLensOptic gasiti o gama variata de ochelari de soare de dama, de barbati si pentru copii. "
+date: "2023-01-04"
+description: "La ArtLensOptic găsiți o gamă variată de ochelari de soare pentru femei, bărbați și pentru copii. "
 permalink: '/ochelari-de-soare/'
 layout: "post"
 ---
-La **ArtLensOptic** gasiti o gama variata de **ochelari de soare** de dama, de barbati si pentru copii. Modele noi de ochelari de soare:
+La **ArtLensOptic** găsiți o gamă variată de **ochelari de soare** de damă, de bărbați și pentru copii. Modele noi de ochelari de soare:
 
 - clasici
 - moderni
-- extravaganti
+- extravaganți
 
-Ochelarii de soare se potrivesc cu orice tinuta asa ca nu conteaza daca vii sa probezi cateva perechi inainte sau dupa munca, dupa o plimbare sau dupa o sesiune de cumparaturi.
+Ochelarii de soare se potrivesc cu orice ținută așa că nu contează dacă vii să probezi câteva perechi înainte sau după muncă, după o plimbare sau după o sesiune de cumpărături.
 
-Va asteptam!
+Vă așteptăm!
