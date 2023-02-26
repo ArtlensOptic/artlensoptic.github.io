@@ -1,51 +1,12 @@
-<footer class="footer">
-  &copy; 2014 - {% year %} {{ site.meta.title }}
-</footer>
-  <script>
-    const ham = document.querySelector('.navbar__hamburger')
-    const menu = document.querySelector('.navbar__mobile-links')
-    const darkToggleButtons = document.querySelectorAll('.dark-toggle')
-
-    function changeDarkToggleBtnIcon () {
-      darkToggleButtons.forEach(btn => {
-        if (btn.querySelector('img').src.indexOf('/static/img/moon.svg') !== -1) {
-          btn.querySelector('img').src = "/static/img/sun.svg"
-        } else {
-          btn.querySelector('img').src = "/static/img/moon.svg"
-        }
-      })
-    }
-
-    if (
-      localStorage.prefsDark === 'true' || 
-      (
-        window.matchMedia && 
-        window.matchMedia('(prefers-color-scheme: dark)').matches && 
-        localStorage.prefsDark !== 'false')
-      ) {
-      document.body.classList.add('dark')
-      changeDarkToggleBtnIcon()
-    }
-
-    ham.addEventListener('click', () => {
-      menu.classList.toggle('navbar__mobile-links--open')
-
-      let prevState = JSON.parse(ham.getAttribute('aria-expanded'))
-      ham.setAttribute('aria-expanded', !prevState)
-    })
-
-    darkToggleButtons.forEach(btn => {
-      btn.addEventListener('click', () => {
-        changeDarkToggleBtnIcon()
-
-        if (document.body.classList.contains('dark')) {
-          document.body.classList.remove('dark')
-          localStorage.prefsDark = 'false'
-        } else {
-          document.body.classList.add('dark')
-          localStorage.prefsDark = 'true'
-        }
-
-      })
-    })
-  </script>
+<div class="container-fluid ">
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top ">
+    <div class="col-md-4 d-flex align-items-center">
+      <span class="mb-3 mb-md-0 text-muted">© 2014 - {% year %} {{ site.meta.title }}</span>
+    </div>
+    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+      <li class="ms-3"><a class="text-muted" href="https://ro-ro.facebook.com/ArtlensOpticBraila/" target="_blank" title="ArtlensOptic pe Facebook"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+    </ul>
+  </footer>
+</div>
+<script src="/static/js/bootstrap.bundle.js"></script>
+<script src="/static/js/artlens.js"></script>

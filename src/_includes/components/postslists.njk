@@ -1,6 +1,11 @@
-{%- if pagination.pageNumber != 0 %} - Page {{ pagination.pageNumber +1 }}{% endif %}<br /><br />
+{%- if pagination.pageNumber != 0 %} Pagina {{ pagination.pageNumber +1 }}<br><br>{% endif %}
 {% for post in pagination.items %}
-<a href="{{ post.url }}"><h2>{{ post.data.title }}</h2></a>
-{{ post.templateContent | striptags | truncate(332, true) }}
-<hr />
+<div class="card mb-4 shadow">
+    <div class="card-header">
+        <h2 class="fs-5"><a href="{{ post.url }}">{{ post.data.title }}</a></h2>
+    </div>
+    <div class="card-body">
+        <p class="card-text">{{ post.templateContent | striptags | truncate(332, true) }}</p>
+    </div>
+</div>
 {% endfor %}

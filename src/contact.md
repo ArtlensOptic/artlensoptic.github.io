@@ -8,7 +8,7 @@ eleventyNavigation:
   key: Contact
   order: 10
 ---
-<table style="border-collapse: collapse; width: 100%; height: 36px; border=0" >
+<table class="table table-striped">
   <tbody>
     <tr style="height: 18px;">
       <td style="width: 32.9935%; height: 18px;"><strong>Program</strong></td>
@@ -22,6 +22,5 @@ eleventyNavigation:
     </tr>
   </tbody>
 </table>
- <hr>
- <br />
+ <br>
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2808.1206931104134!2d27.956767415423116!3d45.26557097909918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b729e5525ba093%3A0x65a12916615427c9!2sArtLens%20Optic!5e0!3m2!1sro!2sro!4v1607364844486!5m2!1sro!2sro" class="map"></iframe>

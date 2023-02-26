@@ -1,0 +1,26 @@
+<div aria-live="polite" aria-atomic="true" class="toast-container p-3 top-10 end-0">
+    <div id="cookiepolicy" class="toast bg-body-tertiary" role="alert" aria-live="polite" aria-atomic="false" data-bs-delay="5000">
+      <div class="toast-header">
+        <svg class="rounded me-2" width="20" height="20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#007aff"></rect></svg>
+        <strong class="me-auto">ArtlensOptic</strong>
+        <small>Chiar acum</small>
+        <button id="closecookie" type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+      </div>
+      <div class="toast-body">
+        ArtlensOptic.ro folosește cookie-uri pentru a personaliza conținutul și anunțurile, pentru a oferi funcții de rețele sociale și pentru analiza traficului. 
+      </div>
+    </div>
+    {% for toast in collections.toasts %}
+    <div id="{{ toast.data.id }}" class="toast bg-body-tertiary" role="alert" aria-live="polite" aria-atomic="false" data-bs-autohide="false">
+        <div class="toast-header">
+            <svg class="rounded me-2" width="20" height="20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill={{ toast.data.color }}></rect></svg>
+            <strong class="me-auto">{{ toast.data.title }}</strong>
+            <small>{{ toast.data.date }}</small>
+            <button id="closecookie" type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+        </div>
+        <div class="toast-body">
+            {{ toast.templateContent | safe }}
+        </div>
+    </div>
+    {% endfor %}
+</div> 

@@ -1,31 +1,35 @@
-<nav class="navbar">
-    <div class="navbar__inner">
-      <a class="navbar__logo" href="/" title="{{ site.meta.title }}"><img src="/static/img/logo.png" width="250" height="50" style="float:left;" alt="{{ site.meta.title }}" title="{{ site.meta.title }}" /></a>
-      <div class="navbar__mobile-options">
-        <div class="navbar__button dark-toggle">
-          <img src="/static/img/moon.svg" width="24" height="24" alt="Toggle dark mode" title="Toggle dark mode" />
-        </div>
-        <button class="navbar__button navbar__hamburger" aria-expanded="false" aria-label="toggle menu">
-          <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#333333">
-            <path d="M0 0h24v24H0z" fill="none"/>
-            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
-          </svg>
-        </button>
+<nav class="navbar navbar-expand-lg bg-info bg-opacity-25 shadow-sm" aria-label="ArtlensOptic navigation">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#artlensnavigation" aria-controls="artlensnavigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="/"><img src="/static/img/logo.png" alt="{{ site.meta.title }}" title="{{ site.meta.title }}"></a>
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="artlensnavigation">
+      <div class="offcanvas-header">
+        <img src="/static/img/logo.png" alt="{{ site.meta.title }}" title="{{ site.meta.title }}">
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
       </div>
-      <div class="navbar__links">
-        {% set navPages = collections.all | eleventyNavigation %}
-        {%- for entry in navPages %}
-        <a class="navbar__link{% if entry.url == page.url %} active{% endif %}" href="{{ entry.url | url }}">{{ entry.title }}</a>
-        {%- endfor %}
-        <div class="navbar__button dark-toggle">
-          <img src="/static/img/moon.svg" width="24" height="24"  alt="Toggle dark mode" title="Toggle dark mode" />
-        </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+          <li class="nav-item">
+            <a class="nav-link" href="/"><svg class="bi" width="16" height="16"><use xlink:href="#home"></use></svg> Acasă</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle pink" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><svg class="bi" width="16" height="16"><use xlink:href="#ochelari"></use></svg> Ochelari</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="/ochelari-de-vedere/"><svg class="bi" width="24" height="24"><use xlink:href="#eyeglasses"></use></svg> Ochelari de vedere</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="/ochelari-de-soare/"><svg class="bi" width="24" height="24"><use xlink:href="#sunglasses"></use></svg> Ochelari de soare</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/contact/"><svg class="bi" width="16" height="16"><use xlink:href="#contact"></use></svg> Contact</a>
+          </li>
+        </ul>
       </div>
     </div>
-    <div class="navbar__mobile-links">
-      {% set navPages = collections.all | eleventyNavigation %}
-      {%- for entry in navPages %}
-      <a class="navbar__link{% if entry.url == page.url %} active{% endif %}" href="{{ entry.url | url }}">{{ entry.title }}</a>
-      {%- endfor %}
+    <div class="dark-toggle">
+      <img src="/static/img/moon.svg" alt="Toogle dark theme" title="Toogle dark theme">
     </div>
-  </nav>
+  </div>
+</nav>

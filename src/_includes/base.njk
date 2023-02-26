@@ -3,20 +3,19 @@
     <head>
         <title>{% if title %}{{ title }} | {{ site.meta.title }}{% else %}{{ site.meta.title }}{% endif %}</title>
         <meta name="description" content="{% if description %}{{ description }}{% else %}{{ site.meta.description }}{% endif %}">
+        <link rel="stylesheet" href="/static/css/bootstrap.min.css">
         <link rel="stylesheet" href="/static/css/artlens.css">
         <link rel="icon" type="image/x-icon" href="/static/favicon.ico">
-        <script>
-            window.cookieconsent_options = {"message":"ArtlensOptic.ro folosește cookie-uri pentru a personaliza conținutul și anunțurile, pentru a oferi funcții de rețele sociale și pentru analiza traficului.","dismiss":"Accept","learnMore":"","link":"","theme":"cookie"};
-        </script>
-        <script src="/static/js/cookieconsent.min.js"></script>
         {% include "components/meta.njk" %}
         {% include "components/analytics.njk" %}
     </head>
     <body>
         {% include "components/navbar.njk" %}
+        {% include "components/toast.njk" %}
         <div class="container">
             {{ content | safe }}
         </div>
         {% include "components/footer.njk" %}
+        {% include "components/svg.njk" %}
     </body>
 </html>
