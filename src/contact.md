@@ -13,12 +13,12 @@ eleventyNavigation:
     <tr style="height: 18px;">
       <td style="width: 32.9935%; height: 18px;"><strong>Program</strong></td>
       <td style="width: 32.9935%; height: 18px;"><strong>Telefon</strong></td>
-      <td style="width: 32.9935%; height: 18px;"><strong>Adresa</strong></td>
+      <td style="width: 32.9935%; height: 18px;"><strong>Adresă</strong></td>
     </tr>
     <tr style="height: 18px;">
       <td style="width: 32.9935%; height: 18px;">Luni – Vineri : <strong>09:00 – 18:00</strong></td>
       <td style="width: 32.9954%; height: 18px;"><a href="tel:+40771140396">+40 771 140 396</a></td>
-      <td style="width: 32.9935%; height: 18px;"><a href="https://ul.waze.com/ul?preview_venue_id=18350533.183243183.16311382&amp;navigate=yes" target="_blank" rel="noopener">strada Școlilor numarul 47 Bl. A28</a></td>
+      <td style="width: 32.9935%; height: 18px;"><a href="https://ul.waze.com/ul?preview_venue_id=18350533.183243183.16311382&amp;navigate=yes" target="_blank" rel="noopener">strada Școlilor numărul 47 Bl. A28</a></td>
     </tr>
   </tbody>
 </table>
