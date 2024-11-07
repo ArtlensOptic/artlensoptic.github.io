@@ -10,8 +10,6 @@ module.exports = function(eleventyConfig) {
 				useShortDoctype: true,
 				removeComments: true,
 				collapseWhitespace: true,
-                collapseInlineTagWhitespace: true,
-                preserveLineBreaks: true
 			});
 			return minified;
 		}
