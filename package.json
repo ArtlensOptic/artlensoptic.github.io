@@ -5,14 +5,17 @@
   "main": "index.js",
   "scripts": {
     "start": "eleventy --serve",
-    "build": "eleventy"
+    "build": "eleventy",
+    "clean": "rimraf public"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@11ty/eleventy": "^3.0.0",
-    "@11ty/eleventy-navigation": "^0.3.5",
-    "@sherby/eleventy-plugin-files-minifier": "^1.1.1"
+    "@11ty/eleventy-navigation": "^0.3.5"
+  },
+  "dependencies": {
+    "html-minifier-terser": "^7.2.0"
   }
 }
