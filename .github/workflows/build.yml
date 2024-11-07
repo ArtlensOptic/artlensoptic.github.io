@@ -11,10 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@master
       - name: Build
-        uses: TartanLlama/actions-eleventy@master
-        with:
-          using: 'node18'
-          install_dependencies: true
+        uses: extrawitz/11ty-dockerless-build@v1
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
