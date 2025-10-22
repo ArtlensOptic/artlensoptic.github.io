@@ -7,19 +7,13 @@ layout: "post"
 ---
 ArtlensOptic Brăila are ca obiect de activitate promovarea și comercializarea produselor optice, respectiv:
 
-– ochelari de vedere
-
-– ochelari de soare
-
-– lentile aeriene
-
-– lentile de contact
-
-– lentile cosmetice
-
-– accesorii: etui, șnururi, lavete curățare, soluții curățare lentile
-
-– determinare de dioptrii gratuită *
+* ochelari de vedere
+* ochelari de soare
+* lentile aeriene
+* lentile de contact
+* lentile cosmetice
+* accesorii: etui, șnururi, lavete curățare, soluții curățare lentile
+* determinare de dioptrii gratuită *
 
 Telefon: <a href="tel:+40771140396">+40 771 140 396</a>
 

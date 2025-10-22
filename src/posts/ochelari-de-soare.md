@@ -7,9 +7,9 @@ layout: "post"
 ---
 La **ArtLensOptic** găsiți o gamă variată de **ochelari de soare** de damă, de bărbați și pentru copii. Modele noi de ochelari de soare:
 
-- clasici
-- moderni
-- extravaganți
+* clasici
+* moderni
+* extravaganți
 
 Ochelarii de soare se potrivesc cu orice ținută așa că nu contează dacă vii să probezi câteva perechi înainte sau după muncă, după o plimbare sau după o sesiune de cumpărături.
 

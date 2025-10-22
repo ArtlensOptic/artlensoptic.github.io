@@ -8,8 +8,8 @@ layout: "post"
 
 Programează acum un _consult gratuit_ la <a href="tel:+40771140396">+40 771 140 396</a> dacă:
 
-- Vederea este încețoșată
-- Migrenele nu îți dau pace
-- Ochelarii pe care îi deja ai nu te mai ajută
+* Vederea este încețoșată
+* Migrenele nu îți dau pace
+* Ochelarii pe care îi deja ai nu te mai ajută
 
 Consultațiile au fost și vor rămâne **gratuite** la ArtLensOptic - Optică Medicală Brăila.
