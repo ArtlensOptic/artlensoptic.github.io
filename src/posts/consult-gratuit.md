@@ -6,10 +6,10 @@ permalink: '/consultatie-optometrica-gratuita/'
 layout: "post"
 ---
 
-Programează acum un _consult gratuit_ la <a href="tel:+40771140396">+40 771 140 396</a> dacă:
+Programați-vă acum pentru un _consult optometric gratuit_ la <a href="tel:+40771140396">+40 771 140 396</a> dacă:
 
-* Vederea este încețoșată
-* Migrenele nu îți dau pace
-* Ochelarii pe care îi deja ai nu te mai ajută
+* Vederea este încețoșată.
+* Migrenele nu îți dau pace.
+* Ochelarii pe care îi aveți deja nu vă mai ajută.
 
-Consultațiile au fost și vor rămâne **gratuite** la ArtLensOptic - Optică Medicală Brăila.
+**Consultațiile optometrice** au fost și vor rămâne **gratuite** la ArtLensOptic - Optică Medicală Brăila.
