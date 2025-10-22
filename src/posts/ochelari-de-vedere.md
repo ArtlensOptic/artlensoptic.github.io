@@ -1,7 +1,7 @@
 ---
 title: "Ochelari de vedere"
-date: "2023-05-01"
-description: "La ArtLensOptic găsiți o gama variată de ochelari de vedere pentru bărbați, femei si pentru copii. "
+date: "2025-10-22"
+description: "La ArtLensOptic găsiți o gamă variată de ochelari de vedere pentru bărbați, femei și pentru copii. "
 permalink: '/ochelari-de-vedere/'
 layout: "post"
 ---

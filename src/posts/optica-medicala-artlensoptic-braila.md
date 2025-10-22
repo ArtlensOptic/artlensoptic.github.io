@@ -1,6 +1,6 @@
 ---
 title: Optica Medicală ArtLensOptic Brăila
-date: "2025-02-13"
+date: "2025-10-22"
 description: "Optica medicală Brăila: Ochelari de vedere, ochelari de soare, accesorii, lentile de contact toate la ArtlensOptic"
 permalink: '/optica-medicala-artlensoptic-braila/'
 layout: "post"

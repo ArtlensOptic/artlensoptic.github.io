@@ -3,7 +3,7 @@ eleventyComputed:
   title: "Optica Medicală ArtLensOptic Brăila {% if pagination.pageNumber > 0 %}Page {{ pagination.pageNumber + 1 }}{% endif %}"
 layout: base
 permalink: /{% if pagination.pageNumber > 0 %}pagina-{{ pagination.pageNumber + 1 }}/{% endif %}
-description: Ochelari de vedere, ochelari de soare, accesorii și lentile de contact toate la Optica Medicală ArtlensOptic Brăila
+description: Ochelari de vedere, ochelari de soare, accesorii ochelari și lentile de contact toate la Optica Medicală ArtlensOptic Brăila
 pagination:
   data: collections.posts
   size: 10
@@ -12,7 +12,7 @@ pagination:
 eleventyNavigation:
   key: Acasă
   order: 1
-date: "2025-04-18"
+date: "2025-10-22"
 ---
 {% include "components/hero.njk" %}
 {% include "components/postslists.njk" %}

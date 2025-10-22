@@ -1,7 +1,7 @@
 ---
 title: "Consultație Optometrică Gratuită"
-date: "2025-04-18"
-description: "La ArtLensOptic găsiți o gamă variată de ochelari de soare pentru femei, bărbați și pentru copii. "
+date: "2025-10-22"
+description: "Consultație Optometrică Gratuită la ArtLensOptic, unde găsiți o gamă variată de ochelari de soare pentru femei, bărbați și pentru copii. "
 permalink: '/consultatie-optometrica-gratuita/'
 layout: "post"
 ---
