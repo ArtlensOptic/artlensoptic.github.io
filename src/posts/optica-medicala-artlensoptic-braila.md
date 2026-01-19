@@ -1,6 +1,6 @@
 ---
 title: Optica Medicală ArtLensOptic Brăila
-date: "2025-10-22"
+date: "2026-01-19"
 description: "Optica medicală Brăila: Ochelari de vedere, ochelari de soare, accesorii, lentile de contact toate la ArtlensOptic"
 permalink: '/optica-medicala-artlensoptic-braila/'
 layout: "post"
@@ -15,7 +15,7 @@ ArtlensOptic Brăila are ca obiect de activitate promovarea și comercializarea 
 * accesorii: etui, șnururi, lavete curățare, soluții curățare lentile
 * determinare de dioptrii gratuită *
 
-Telefon: <a href="tel:+40771140396">+40 771 140 396</a>
+Telefon: <a href="tel:+40771140396">0771140396</a>
 
 ### Parteneri / Colaboratori
 
