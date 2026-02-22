@@ -6,4 +6,4 @@ module.exports = {
       business: "ArtLensOptic",
       siteUrl: "https://artlensoptic.ro",
     }
-  }
+}
