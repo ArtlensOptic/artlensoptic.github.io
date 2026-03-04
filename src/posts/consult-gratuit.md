@@ -1,6 +1,6 @@
 ---
 title: "Consultație Optometrică Gratuită"
-date: "2026-02-22"
+date: "2026-03-04"
 description: "Consultație Optometrică Gratuită la ArtLensOptic, unde găsiți o gamă variată de ochelari, lentile de contact și ochelari de soare pentru femei, bărbați și pentru copii. "
 permalink: '/consultatie-optometrica-gratuita/'
 layout: "post"
@@ -11,6 +11,6 @@ Programați-vă acum pentru un _consult optometric gratuit_ la <a href="tel:+407
 * Migrenele nu îți dau pace.
 * Ochelarii pe care îi aveți deja nu vă mai ajută.
 
-La ArtlensOptic găsiți o gamă variată de ochelari, lentile de contact și ochelari de soare pentru femei, bărbați și pentru copii.
+La ArtlensOptic găsiți o gamă variată de ochelari, lentile de contact și ochelari de soare pentru femei, bărbați și copii.
 
 **Consultațiile optometrice** au fost și vor rămâne **gratuite** la ArtLensOptic - Optică Medicală Brăila.
