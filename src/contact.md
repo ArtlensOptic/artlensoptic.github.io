@@ -1,6 +1,6 @@
 ---
 title: "Contact"
-date: "2026-03-08"
+date: "2026-06-14"
 description: 'Vă așteptăm pentru ochelari de vedere, ochelari de soare, accesorii pentru ochelari, lentile de contact și altele la ArtlensOptic'
 permalink: '/contact/'
 layout: post
@@ -16,9 +16,9 @@ eleventyNavigation:
       <td style="width: 32.9935%; height: 18px;"><strong>Adresă</strong></td>
     </tr>
     <tr style="height: 18px;">
-      <td style="width: 32.9935%; height: 18px;">Luni – Vineri : <strong>09:00 – 18:00</strong></td>
+      <td style="width: 32.9935%; height: 18px;">Luni - Vineri : <strong>09:00 – 18:00</strong></td>
       <td style="width: 32.9954%; height: 18px;"><a href="tel:+40771140396">+40 771 140 396</a></td>
-      <td style="width: 32.9935%; height: 18px;"><a href="https://ul.waze.com/ul?preview_venue_id=18350533.183243183.16311382&amp;navigate=yes" target="_blank" rel="noopener">strada Școlilor numărul 47 Bl. A28</a></td>
+      <td style="width: 32.9935%; height: 18px;"><a href="https://ul.waze.com/ul?preview_venue_id=18350533.183243183.16311382&amp;navigate=yes" target="_blank" rel="noopener">strada Școlilor numărul 47 Bl. A28, parter</a></td>
     </tr>
   </tbody>
 </table>
