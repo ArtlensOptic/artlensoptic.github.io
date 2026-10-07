@@ -1,11 +1,11 @@
 ---
 title: Optica Medicală ArtLensOptic Brăila
-date: "2026-06-14"
+date: "2026-10-07"
 description: "Optica medicală Brăila: Ochelari de vedere, ochelari de soare, accesorii, lentile de contact toate la ArtlensOptic"
 permalink: '/optica-medicala-artlensoptic-braila/'
 layout: "post"
 ---
-Optica Medicală ArtlensOptic Brăila are ca obiect de activitate promovarea și comercializarea produselor optice, respectiv:
+Optica Medicală ArtlensOptic Brăila are ca obiect de activitate promovarea și comercializarea produselor optice, printre care:
 
 * ochelari de vedere
 * ochelari de soare

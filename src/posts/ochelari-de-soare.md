@@ -1,11 +1,11 @@
 ---
 title: "Ochelari de soare"
-date: "2026-06-14"
+date: "2026-10-07"
 description: "La ArtLensOptic găsiți o gamă variată de ochelari de soare pentru femei, bărbați și copii."
 permalink: '/ochelari-de-soare/'
 layout: "post"
 ---
-La **ArtLensOptic** găsiți o gamă variată de **ochelari de soare** de damă, de bărbați și pentru copii. Modele noi de ochelari de soare:
+Și ce dacă a venit toamna! La **ArtLensOptic** găsiți o gamă variată de **ochelari de soare** de damă, de bărbați și pentru copii. Modele noi de ochelari de soare:
 
 * clasici
 * moderni

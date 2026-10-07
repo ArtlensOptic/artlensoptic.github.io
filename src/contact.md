@@ -1,7 +1,7 @@
 ---
 title: "Contact"
-date: "2026-06-14"
-description: 'Vă așteptăm pentru ochelari de vedere, ochelari de soare, accesorii pentru ochelari, lentile de contact și altele la ArtlensOptic'
+date: "2026-10-07"
+description: 'Vă așteptăm pentru ochelari de vedere, ochelari de soare, accesorii pentru ochelari, lentile de contact și alte accesorii la ArtlensOptic'
 permalink: '/contact/'
 layout: post
 eleventyNavigation:
